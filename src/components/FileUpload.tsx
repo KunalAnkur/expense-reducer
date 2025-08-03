@@ -13,7 +13,7 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 import { parsePdf, Transaction } from '@/lib/pdf-parser';
-import { useToast } from "@/components/ui/use-toast";
+import { useToast } from "@/hooks/use-toast";
 
 interface FileUploadProps {
   onTransactionsParsed: (transactions: Transaction[]) => void;
